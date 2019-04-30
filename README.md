@@ -1,4 +1,4 @@
-# String's Split Method and Array's Join Method
+# String's Split Method, Word Array Literal, and Array's Join Method
 
 ## Learning Goals
 
@@ -10,10 +10,12 @@
 
 At this point in our journey, we're probably really keen to get some more data
 than just plain old numbers. It's a good time to cover to methods that are
-inverses of each other `String`'s `split` and `Array`'s `join`. It's also time
-for a nice, easy, fun and friendly lesson that will make your life easier.
+inverses of each other:
 
-## Join elements of an `Array` with `join` to produce a `String`
+* `String`'s `split`
+* `Array`'s `join`
+
+## Join Elements of an `Array` With `join` to Produce a `String`
 
 Since we're in a module about `Array`s, let's talk about joining an `Array` of
 words.
@@ -57,9 +59,9 @@ these are a good start.
 
 ## Resources
 
-* [split][split]
 * [join][join]
 * [Array Litera][al]
+* [split][split]
 
 [join]:  https://ruby-doc.org/core-2.6.3/Array.html#method-i-join
 [split]: https://ruby-doc.org/core-2.6.3/String.html#method-i-split
