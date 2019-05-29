@@ -60,7 +60,7 @@ these are a good start.
 ## Resources
 
 * [join][join]
-* [Array Litera][al]
+* [Array Literal][al]
 * [split][split]
 
 [join]:  https://ruby-doc.org/core-2.6.3/Array.html#method-i-join
