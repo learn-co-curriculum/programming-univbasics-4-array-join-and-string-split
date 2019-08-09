@@ -1,4 +1,4 @@
-# String's Split Method, Word Array Literal, and Array's Join Method
+# String's Split Method, Word `Array` Literal, and `Array`'s Join Method
 
 ## Learning Goals
 
@@ -24,6 +24,7 @@ words.
 ["This", "is", "a", "test"].join(' ') #=> "This is a test"
 ["This", "is", "a", "test"].join('_') #=> "This_is_a_test"
 ["This", "is", "a", "test"].join('*') #=> "This*is*a*test"
+["This", "is", "a", "test"].join() #=> "Thisisatest"
 ```
 
 For more details, consult the [join][] documentation.
@@ -31,12 +32,16 @@ For more details, consult the [join][] documentation.
 ## Create an `Array` of Words with Ruby's %w// Literal
 
 Creating an `Array` of words can be difficult to type with all those `"`
-characters rolling about. Ruby invented an operator called the Array of Words
+characters rolling about. Ruby invented an operator called the `Array` of Words
 literal.
 
 ```ruby
 %w[this is also a test] #=> ["this", "is", "also", "a", "test"]
+
 # For method-chaining fun:
+%w[this is also a test].join(" ") #=> "this is also a test"
+
+# Mental stretch...
 %w[this is also a test].join(" ").capitalize #=> "This is also a test"
 ```
 
@@ -49,7 +54,8 @@ reverse the process with `String`'s `split` method:
 "When in the course of human events".split(" ") #=> ["When", "in", "the", "course", "of", "human", "events"]
 ```
 
-Here is a bit of Thomas Jefferson's _Declaration of Independence_.
+Here is a bit of Thomas Jefferson's _Declaration of Independence_ broken into
+single words.
 
 ## Conclusion
 
